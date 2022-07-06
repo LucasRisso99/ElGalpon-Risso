@@ -1,66 +1,97 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>EL GALPON-Productos de limpieza</title>
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="shortcut icon" href="img/favicon.png">
-</head>
-<body>
-	<header class="header1">
-	<div class="divLogo">		
-		<a href="index.html">
-		<img src="img/logo.png" alt="logo de EL GALPON productos de limpieza">
-		</a>
-		</div>
-		<nav>
-		<ul>
-			<li>
-				<a href="views/productos.html">Productos</a>
-			</li>
-			<li>
-				<a href="views/promociones.html">Promociones</a>
-			</li>
-			<li>
-				<a href="views/contacto.html">Contacto</a>
-			</li>
-			<li>
-				<a href="views/nosotros.html">Nosotros</a>
-			</li>
-		</ul>
-	</nav>
-	</header>
-	
-	<header class="textCenter">
-		<h1>QUIMICA EL GALPON</h1>
-		</header>
-		<div class="divAnimacion">
-		
-	     </div>
-	<!-- ends header-->
-	<main class="textCenter bgRed textBlack">
-		<section>
-	     <h2> PRODUCTO DESTACADO DE ESTA SEMANA</h2>
-	     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae veritatis distinctio magni sed velit quas optio blanditiis rem similique aliquid id nulla labore, exercitationem excepturi vero hic debitis quasi provident?</p>
-	     <img src="img/inodoro.jpg" alt="">
-		</section>
-		<!--ends form-->
-		<section>
-		</section>
-		<!--ends map-->
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- mi css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- end css -->
+   <title>El Galpon-Productos de limpieza</title>
+  </head>
+  <!-- inicia nav -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-vlue">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">El Galpon</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="views/productos.html">Productos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="views/promociones.html">Promociones</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="views/contacto.html">Contacto</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="views/nosotros.html">Nosotros</a>
+        </li>
+     </ul>
+       </ul>
+    </div>
+  </div>
+</nav>
+  <!-- termina nav -->
+  <!-- carousel -->
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/animacion.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/animacion4.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/animacion2.webp" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+  <!-- termina carousel -->
+  <body>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<main class="textCenter bgRed textBlack">
+    <section>
+       <h2> PRODUCTO DESTACADO DE ESTA SEMANA</h2>
+       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae veritatis distinctio magni sed velit quas optio blanditiis rem similique aliquid id nulla labore, exercitationem excepturi vero hic debitis quasi provident?</p>
+       <img src="img/inodoro.jpg" alt="">
+    </section>
+    <!--ends form-->
+    <section>
+    </section>
+    <!--ends map-->
     </main>
-    <footer >
-    	<h3>seguinos en nuestras redes</h3>
-    	<div class="divRedes">
-    	<a href="https://www.facebook.com" target="_blank">
-    		<img src="img/facebook.png" alt="">
-    	</a>
+  </body>
+   <footer >
+      <h3>seguinos en nuestras redes</h3>
+      <div class="divRedes">
+      <a href="https://www.facebook.com" target="_blank">
+        <img src="img/facebook.png" alt="">
+      </a>
         
-    	<a href="https://www.twitter.com" target="_blank">
-    		<img src="img/twitter.png" alt="">
-    	</a>
-    	 </div>
+      <a href="https://www.twitter.com" target="_blank">
+        <img src="img/twitter.png" alt="">
+      </a>
+       </div>
     </footer>
-</body>
 </html>

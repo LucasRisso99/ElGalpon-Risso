@@ -1,41 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@1,300;1,400&display=swap');
 *{
-	margin: 0;
-	padding: 0;
 	font-family: 'Titillium Web', sans-serif;
 }
 
-html{
-	font-size: 62.5%;
-}
-.header1{
+.bg-vlue{
 	background: linear-gradient(blue,orange);
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+   
 }
-.divLogo{
-    width: 30%;
-}
-.divLogo img{
-    width: 40%;
-}
-nav{
-    width: 40%;
-}
-ul{
-      display: flex;
-      justify-content: space-around;
-      align-items: center; 
-}
-li{
-    list-style: none;
-}
+
 ul li a{
-    text-decoration: none;
-        color: white;
-        font-size: 1.5rem;
+        
         /*subrayado piola*/
         background-image: linear-gradient(currentColor,currentColor);
         background-position: 0% 100%;
@@ -46,7 +20,7 @@ ul li a{
 
     ul li a:hover{
         color: black;
-        font-weight: 600;
+        font-weight: 400;
         /*subrayado piola*/
         background-size: 100% 2px;
     }
@@ -86,8 +60,8 @@ ul li a{
  	   padding: 30px 100px;
  }
              section p{
-        	font-size: 1.8rem;
-        	line-height: 2rem;
+        	font-size: 1.5rem;
+        	line-height: 1.5rem;
         }
         section label{
             font-size: 1.8rem;
@@ -102,9 +76,14 @@ ul li a{
             line-height: 2rem;
         }
             form input{
-                font-size: 3rem;
-                line-height: 2rem;
+                font-size: 1.5rem;
+                line-height: 1.5rem;
             }
+      select{
+
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+      }      
     footer{
             text-align: center;
             background: linear-gradient(#314450,#CFDEE7);
