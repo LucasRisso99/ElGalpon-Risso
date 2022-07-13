@@ -56,34 +56,11 @@ ul li a{
         	margin-bottom: 20px;
         }
 
-    section{
- 	   padding: 30px 100px;
- }
-             section p{
-        	font-size: 1.5rem;
-        	line-height: 1.5rem;
-        }
-        section label{
-            font-size: 1.8rem;
-            line-height: 2rem;
-        }
-        section input{
-            font-size: 1.8rem;
-            line-height: 2rem;
-        }
-        form{
-            font-size: 3rem;
-            line-height: 2rem;
-        }
-            form input{
-                font-size: 1.5rem;
-                line-height: 1.5rem;
-            }
-      select{
-
-        font-size: 1.5rem;
-        line-height: 1.5rem;
-      }      
+     p{
+        color: black;
+        font-size: 1.2em;
+        line-height: 1.4em;
+     }  
     footer{
             text-align: center;
             background: linear-gradient(#314450,#CFDEE7);
