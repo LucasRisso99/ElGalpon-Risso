@@ -1,0 +1,58 @@
+.bg-vlue{
+    background: linear-gradient(blue,orange);
+    ul li a{
+        
+        /*subrayado piola*/
+        background-image: linear-gradient(currentColor,currentColor);
+        background-position: 0% 100%;
+        background-repeat: no-repeat;
+        background-size: 0% 2px;
+        transition: background-size .3s;
+        }
+        ul li a:hover{
+            color: black;
+            font-weight: 400;
+            /*subrayado piola*/
+            background-size: 100% 2px;
+        }
+        h1:hover{
+        	font-size: 3.5rem;
+        	border: 2px deeppink;
+            transform: translateY(10px);
+            cursor: pointer;
+            transition: 3s;
+            
+        }
+        h2:hover{
+        	font-size: 2.7rem;
+            transform: scaleX(1.11);
+            cursor: pointer;
+            transform: 2s;
+            .textCenter{
+                text-align: center;
+                .bgRed{
+                    background-color: rgb(200, 0, 0);
+                    .textBlack{
+                        color: black;
+                        h3{
+                            font-size: 2rem;
+                        }
+                    }
+                }
+            }
+        }
+        
+}
+footer{
+    text-align: center;
+    background: linear-gradient(#314450,#CFDEE7);
+    .divRedes{
+        width: 40%;
+        align-items: center;
+        display: inline-flex;
+        .divRedes img{
+            width: 40%;
+    
+        }
+    }     
+}

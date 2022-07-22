@@ -1,0 +1,16 @@
+@import "partials/index";
+@import "partials/contacto";
+@import "partials/productos";
+@import "partials/nosotros";
+@import "partials/promociones";
+@import "utilities/extend";
+@import "utilities/mixin";
+
+
+*{
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.bg-vlue{
+	background: linear-gradient(blue,orange);
+        }
