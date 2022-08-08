@@ -51,14 +51,25 @@ ul li a{
         h2,
         h3
         h4{
-        	text-transform: uppercase;
-        	margin-bottom: 20px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
         }
 
         p{
         color: black;
         font-size: 1.2em;
         line-height: 1.4em;
+        }
+        .error{
+            font-size: 3rem;
+            color: aliceblue;
+            text-align: center;
+        }
+        .body1{
+            background: black;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
         }  
     footer{
             text-align: center;
